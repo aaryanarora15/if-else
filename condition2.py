@@ -6,7 +6,7 @@ Created on Wed May 27 01:20:28 2026
 """
 
 import time
-timestamp=int(time.strftime("%H:%M:%S")
+timestamp=time.strftime("%H:%M:%S")
 print("The Time is: ", timestamp) 
 timestamp2 = int(time.strftime("%H"))
 
